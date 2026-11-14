@@ -221,3 +221,22 @@ __marimo__/
 # Enterprise env file (secrets) and generated run reports
 .env.enterprise
 reports/
+
+
+# Local environment
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local logs
+*.log
+
+# Local market data
+/backend/data/*.csv
